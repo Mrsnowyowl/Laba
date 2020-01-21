@@ -48,7 +48,7 @@ def r_parse(base_url, headers,times):
                     f.close
                     all_titles.append(articles)
         print('hour number: ',i)
-        time.sleep(1)
+        time.sleep(60*60)
     else:
         print('thats all')
     return all_titles
